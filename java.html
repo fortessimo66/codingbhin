@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="images/ico/coadingbhin.ico">
+    <title>자바</title>
+    <style>
+      body {
+        background-color: #D9E5FF;
+      }
+      a {
+        text-decoration:none;
+        color:blue;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+
+      h3 {
+        color: yellow;
+        text-align: center;
+      }
+
+      h4 {
+        text-align: center;
+      }
+
+      h2 {
+        color: rgb(253, 117, 117);
+      }
+
+      h6 {
+        color: black;
+        text-align: right;
+      }
+
+      p {
+        color: black;
+        font-family: verdana;
+        font-size: 20px;
+      }
+      
+      li{
+        list-style-type: none;
+      }
+      
+      #ad{
+        color: yellow;
+        text-align: center;
+      }
+      
+      #ma{
+        display: inline-block;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        transition: 0.5s;
+      }
+      
+      #ma:link    { text-decoration:none; color:gray }
+      #ma:visited { text-decoration:underline; color:gray }
+      #ma:hover{ 
+        color: gray;
+        -webkit-transform: scale(1.5,1.5);
+        -moz-transform: scale(1.5,1.5);
+        -o-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+        transform: scale(1.5,1.5); 
+      }
+      #ma:active  { text-decoration:underline; color:gray }
+      
+      #disp li{
+        display: inline-block;
+        text-align: center;
+      }
+      
+      a:link    { text-decoration:none; color:rgb(255, 70, 70) }
+      a:visited { text-decoration:underline; color:rgb(255, 70, 70) }
+      a:hover   { text-decoration:underline; color:rgb(255, 70, 70) }
+      a:active  { text-decoration:underline; color:rgb(255, 70, 70) }
+      
+      #h21{
+        text-align: center;
+        color: black;
+        margin: 0px;
+      }
+      
+      #disp{
+        margin: 0px;
+      }
+      
+      #sec{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header" style="background-color:rgb(114, 221, 167);height:auto;width:auto;">
+      <h1><a href="https://java.com" target="blank_">자바</a>란?</h1>
+      <h2>자바란?</h2>
+      <p>썬 마이크로시스템즈에서 1995년에 개발한 <strong style="color:red;">객체 지향 프로그래밍 언어</strong>입니다. 지금은 오라클이 인수해서 오라클 것입니다.</p>
+      <h2>그럼 객체 지향 언어란 무엇일까요?</h2>
+      <p>객체 지향 프로그래밍은 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위, 즉 "객체"들의 모임으로 파악하고자 하는 것입니다.<br>각각의 객체는 메시지를 주고받고, 데이터를 처리할 수 있습니다.</p>
+      <h1>자바의 기능</h1>
+      <h2>클래스</h2>
+      <p>클래스는 객체 지향 프로그래밍에서 특정 객체를 생성하기 위해 변수와 메소드를 정의하는 일종의 틀이다. 객체를 정의 하기 위한 상태(멤버변수)와 메서드(함수)로 구성된다.<br>
+        템플릿을 사용하면 객체를 클래스로 정의할 때 멤버의 자료형을 미리 정하지 않고 객체를 사용할 때 결정할 수 있다.<br>이를 통해 클래스나 멤버의 중복 정의를 하지 않아도 되므로 효율적으로 코딩이 가능하다.</p>
+      <h2>객체</h2>
+        <p>컴퓨터 과학에서 객체 또는 오브젝트는 저장공간에서 할당되어 값을 가지거나 식별자에 의해 참조되는 공간을 의미하며, 변수, 자료 구조, 함수 또는 메소드가 될 수 있다.<br>프로그래밍 언어는 변수를 이용해 객체에 접근하므로 객체와 변수라는 용어는 종종 함께 사용된다.<br>그러나 메모리가 할당되기 전까지 객체는 존재하지 않는다.<br>
+          절차적 프로그래밍에서 하나의 객체는 자료나 명령을 포함할 수 있지만 두 가지를 동시에 포함하지는 않는다.<br>
+          객체지향 프로그래밍에서 객체는 클래스의 인스턴스이다.<br>클래스 객체는 자료와 그 자료를 다루는 명령의 조합을 포함하여 객체가 메시지를 받고 자료를 처리하며 메시지를 다른 객체로 보낼 수 있도록 한다.<br>실세계의 유추로 설명하자면, 만약 어떤 사람이 집에서 살기를 원할 때, 그 집의 집사진이나 축소 모형 따위는 전혀 필요가 없다.<br>필요한 것은 설계에 맞는 실제 집이다.<br>이 유추에서 청사진은 클래스를 나타내고 실제 집은 객체를 나타낸다.</p>
+      <h2>메소드</h2>
+      <p>메소드(method) 또는 멤버 함수(member function)는 객체 지향 프로그래밍에서 객체과 관련된 서브 루틴 (또는 함수)이며 데이터와 멤버 변수에 대한 접근 권한을 갖는다.
+
+        클래스 기반 언어에서 클래스 내부에 정의되어 있다.<br>메소드는 프로그램이 실행되고있을때 클래스에서 생성된 인스턴스와 관련된 동작을 정의한다.<br>메소드는 런타임 중에 클래스 인스턴스 (또는 클래스 객체)에 저장되어 있는 데이터에 접근할 수 있는 특수 속성을 가지고 있다.<br>바인딩은 클래스와 메소드 간의 연관관계를 말합니다.<br>클래스와 관련된 메소드는 클래스에 바인딩 할 수 있다.<br>메소드는 컴파일 타임 (정적 바인딩) 또는 런타임 (동적 바인딩)에 클래스에 바인딩 할 수 있다.</p>
+    </div>
+    <a href="index.html"><h1 style="color:black">메인으로 가기</h1></a>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+</html>

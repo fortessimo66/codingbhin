@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="images/ico/coadingbhin.ico">
+    <title>파이썬</title>
+    <style>
+      a {
+        text-decoration:none;
+      }
+      body {
+        background-color: #D9E5FF;
+      }
+
+      h1 {
+        color: rgb(70, 249, 255);
+        text-align: center;
+      }
+
+      h4 {
+        text-align: center;
+      }
+      h6 {
+        color: black;
+        text-align: right;
+      }
+
+      p {
+        color: black;
+        font-family: verdana;
+        font-size: 20px;
+      }
+      
+      li{
+        list-style-type: none;
+      }
+      
+      #ad{
+        color: yellow;
+        text-align: center;
+      }
+      
+      #ma{
+        display: inline-block;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        transition: 0.5s;
+      }
+      
+      #ma:link    { text-decoration:none; color:gray }
+      #ma:visited { text-decoration:underline; color:gray }
+      #ma:hover{ 
+        color: gray;
+        -webkit-transform: scale(1.5,1.5);
+        -moz-transform: scale(1.5,1.5);
+        -o-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+        transform: scale(1.5,1.5); 
+      }
+      #ma:active  { text-decoration:underline; color:gray }
+      
+      a:link    { text-decoration:none; color:rgb(252, 142, 197) }
+      a:visited { text-decoration:underline; color:rgb(252, 142, 197) }
+      a:hover   { text-decoration:underline; color:rgb(252, 142, 197) }
+      a:active  { text-decoration:underline; color:rgb(252, 142, 197) }
+      
+      #disp li{
+        display: inline-block;
+        text-align: center;
+      }
+      
+      a:link    { text-decoration:none; color:rgb(255, 70, 70) }
+      a:visited { text-decoration:underline; color:rgb(255, 70, 70) }
+      a:hover   { text-decoration:underline; color:rgb(255, 70, 70) }
+      a:active  { text-decoration:underline; color:rgb(255, 70, 70) }
+      
+      #h21{
+        text-align: center;
+        color: black;
+        margin: 0px;
+      }
+      
+      #disp{
+        margin: 0px;
+      }
+      
+      #sec{
+        text-align: center;
+      }
+    </style>
+  <body>
+    <div id="header" style="background-color:white;height:auto;width:auto;">
+      <ol>
+        <li><h1>파이선이란 무엇인가?</h1></li>
+        <br><br><h2>파이썬 시작하기</h2>
+        <p>파이썬은 1991년 프로그래머인 귀도 반 로섬(Guido van Rossum)이 발표한 고급 프로그래밍 언어로, 플랫폼 독립적이며 인터프리터식, 객체지향적, 동적 타이핑(dynamically typed) 대화형 언어이다. 파이썬이라는 이름은 귀도가 좋아하는 코미디 〈Monty Python's Flying Circus〉에서 따온 것이다.
+          <br><br><h2>파이썬의 특징</h2>
+        <p style="font-size:15px">파이썬은 인간다운 언어이다</p>
+        <p style="font-size:15px">파이썬은 문법이 쉬워 빠르게 배울 수 있다</p>
+        <p style="font-size:15px">파이썬은 간결하다</p>
+        <p style="font-size:15px">파이썬은 프로그래밍을 즐기게 해준다</p>
+        <p style="font-size:15px">파이썬은 개발 속도가 빠르다</p>
+        <br><br><h2>파이썬으로 무엇을 할 수 있을까?</h2>
+        <p style="font-size:15px">파이썬으로 할 수 있는 일은 아주 많다. 대부분의 프로그래밍 언어가 하는 일을 파이썬은 쉽고 깔끔하게 처리한다. 파이썬으로 할 수 있는 일들을 나열하자면 끝도 없다.</p>
+        <br><br><h2>파이썬 설치하기</h2>
+        <p style="font-size:15px">파이썬 설치하기는 저의 강의에 있으니 많이들 보시기 바랍니다!</p>
+        <p>링크: <a href="https://www.youtube.com/watch?v=5JkHKFC7Ub8&list=PL5MIt-Ey162fvbX55thsyVbM3LmL1E8JO&index=3&t=2s" target="blank_">파이썬을 시작해보자!~</a></p>
+        <br><br><h2>파이썬 둘러보기</h2>
+        <p style="font-size:15px">파이썬 프로그래밍 실습을 시작하기 전에 기초적인 것을 준비해 보자. [시작] 메뉴에서 [프로그램 → Python 3.X → Python 3.X(XX-bit)]을 선택하면 다음과 같은 화면이 나타난다.</p>
+        <p style="font-size:15px">Python 3.7.0 (v3.5.1:37a07cee5969, Dec 6 2015, 01:54:25) [MSC v.1900 64 bit (AM...</p>
+        <p style="font-size:15px">Type "help", "copyright", "credits" or "license" for more information.</p>
+        <p style="font-size:15px">>>></p>
+        <p style="font-size:15px">위와 같은 것을 대화형 인터프리터라고 하는데, 앞으로 이 책에서는 이 인터프리터로 파이썬 프로그래밍의 기초적인 사항들에 대해 설명할 것이다. ※ 대화형 인터프리터는 파이썬 셸(Python shell)이라고도 한다. 3개의 꺾은 괄호(>>>)는 프롬프트(prompt)라고 한다. 대화형 인터프리터를 종료할 때는 Ctrl+Z 를 누른다 (유닉스 계열에서는 Ctrl+D). 또는 다음의 예와 같이 sys 모듈을 사용하여 종료할 수도 있다.<br><br></p>
+        <br><br><h2>파이썬 시작하기~</h2>
+        <p><strong>파이썬을 배울려면?</strong> 모두 내 파이썬 강의를 따라오기를 바란다~<p>링크: <a href="https://www.youtube.com/playlist?list=PL5MIt-Ey162fvbX55thsyVbM3LmL1E8JO" target="blank_">파이썬? 가볼까?</a></p><br><br><br><br></p>
+      </ol>
+    </div>
+    <a href="index.html"><h1 style="color:black">메인으로 가기</h1></a>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+</html>
